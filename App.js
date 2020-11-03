@@ -4,14 +4,14 @@ import {
   View,
   Text,
 } from 'react-native';
-import Button from './src/components/Button'
+import SimpleButton from './src/components/SimpleButton'
 
 export default () => {
   return (
     <View style={styles.container}>
-      <Button onClick={() => console.warn('a')} label='1'/>
-      <Button onClick={() => console.warn('a')} label='2'/>
-      <Button onClick={() => console.warn('a')} label='3'/>
+      <SimpleButton onClick={() => console.warn('a')} label='1'/>
+      <SimpleButton onClick={() => console.warn('a')} label='2'/>
+      <SimpleButton onClick={() => console.warn('a')} label='3'/>
     </View>
   )
 }
